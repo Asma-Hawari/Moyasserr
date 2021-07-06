@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Eng. Asma Hawari
+ *
+ * @package Moyasser_STC
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <mysStc>
+                <model>Moyasser\STC\Model\STCPay</model>
+                <title>STCPay Payment</title>
+                <active>0</active>
+            </mysStc>
+        </payment>
+    </default>
+</config>
